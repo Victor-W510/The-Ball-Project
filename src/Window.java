@@ -206,7 +206,7 @@ public class Window extends JFrame implements ActionListener {
         }
         AngleDarkBlue = AngleDarkBlue - b8.speed;
         
-        // Star / Stop
+        // Start / Stop
         if (e.getSource() == Start){
             time.start();
 
