@@ -100,10 +100,12 @@ public class Window extends JFrame implements ActionListener {
         Start = new JButton("Start");
         Start.setBounds(150,15,200,40);
         Start.addActionListener(this);
+        Start.setForeground(Color.BLUE);
         myPanel.add(Start);
 
         End = new JButton("Pause");
         End.setBounds(450,15,200,40);
+        End.setForeground(Color.RED);
 
         End.addActionListener(this);
         myPanel.add(End);
