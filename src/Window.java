@@ -37,7 +37,7 @@ public class Window extends JFrame implements ActionListener {
         setResizable(false);
     }
     public void panel2 (){ 
-        // Lower panel with the circle 
+        // Lower Panel + The circle 
         myPanelTwo = new JPanel(){
             @Override
             public void paint (Graphics g ){
