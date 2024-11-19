@@ -109,6 +109,7 @@ public class Window extends JFrame implements ActionListener {
 
         End.addActionListener(this);
         myPanel.add(End);
+        //this is a good :)
 
     }
     @Override
